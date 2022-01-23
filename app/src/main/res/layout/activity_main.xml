@@ -17,6 +17,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/bpmAmountTextNumber"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.913"
         app:srcCompat="@drawable/_34224_add_plus_new_icon" />
 
     <ImageButton
@@ -29,6 +30,7 @@
         app:layout_constraintEnd_toStartOf="@+id/bpmAmountTextNumber"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.913"
         app:srcCompat="@drawable/ic__11864_minus_icon" />
 
     <EditText
@@ -40,7 +42,8 @@
         android:autofillHints="yes"
         android:ems="10"
         android:hint="@string/speed"
-        android:inputType="number"
+        android:inputType="numberSigned"
+        android:maxLength="3"
         android:minHeight="48dp"
         android:textAlignment="center"
         android:textColorHint="@color/cardview_dark_background"
