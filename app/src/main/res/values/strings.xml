@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Metronome</string>
+    <string name="bpmAmount">120</string>
+    <string name="more_bpm">more bpm</string>
+    <string name="less_bpm">less bpm</string>
+    <string name="speed">speed</string>
 </resources>

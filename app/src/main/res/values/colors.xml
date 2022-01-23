@@ -7,4 +7,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="background_app_color">#717D8C</color>
+    <color name="bpm_circle_color">#80CEB9</color>
+    <color name="bpm_wave_color">#41AAC4</color>
 </resources>
