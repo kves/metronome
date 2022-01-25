@@ -42,15 +42,28 @@
         android:autofillHints="yes"
         android:ems="10"
         android:hint="@string/speed"
-        android:inputType="numberSigned"
+        android:inputType="numberPassword"
         android:maxLength="3"
         android:minHeight="48dp"
         android:textAlignment="center"
-        android:textColorHint="@color/cardview_dark_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/plusImageButton"
         app:layout_constraintStart_toEndOf="@+id/minusImageButton"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="EditableContentDescCheck,TextContrastCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/startStopButton"
+        android:layout_width="85dp"
+        android:layout_height="90dp"
+        android:background="@drawable/start_button"
+        android:text="Start"
+        app:circularflow_defaultRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/plusImageButton"
+        app:layout_constraintHorizontal_bias="0.479"
+        app:layout_constraintStart_toEndOf="@+id/minusImageButton"
+        app:layout_constraintTop_toBottomOf="@+id/bpmAmountTextNumber"
+        app:layout_constraintVertical_bias="0.772"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

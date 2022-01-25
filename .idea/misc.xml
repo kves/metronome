@@ -7,10 +7,17 @@
         <entry key="..\:/projects/prg/android/Metronome/app/src/main/res/drawable/_11864_minus_icon.xml" value="0.3151041666666667" />
         <entry key="..\:/projects/prg/android/Metronome/app/src/main/res/drawable/_34224_add_plus_new_icon.xml" value="0.3151041666666667" />
         <entry key="..\:/projects/prg/android/Metronome/app/src/main/res/drawable/add_plus_icon.xml" value="0.3151041666666667" />
+        <entry key="..\:/projects/prg/android/Metronome/app/src/main/res/drawable/button_sedign.xml" value="0.1" />
         <entry key="..\:/projects/prg/android/Metronome/app/src/main/res/drawable/ic__11864_minus_icon.xml" value="0.3151041666666667" />
         <entry key="..\:/projects/prg/android/Metronome/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3151041666666667" />
+        <entry key="..\:/projects/prg/android/Metronome/app/src/main/res/drawable/round_button.xml" value="0.1" />
+        <entry key="..\:/projects/prg/android/Metronome/app/src/main/res/drawable/selector.xml" value="0.1" />
+        <entry key="..\:/projects/prg/android/Metronome/app/src/main/res/drawable/square_button.xml" value="0.1" />
+        <entry key="..\:/projects/prg/android/Metronome/app/src/main/res/drawable/start_button.xml" value="0.1" />
+        <entry key="..\:/projects/prg/android/Metronome/app/src/main/res/drawable/stop_button.xml" value="0.1" />
         <entry key="..\:/projects/prg/android/Metronome/app/src/main/res/font/roboto.xml" value="0.3302083333333333" />
-        <entry key="..\:/projects/prg/android/Metronome/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/projects/prg/android/Metronome/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/projects/prg/android/Metronome/app/src/main/res/layout/keyboard.xml" value="0.32065217391304346" />
         <entry key="..\:/projects/prg/android/Metronome/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3151041666666667" />
       </map>
     </option>
