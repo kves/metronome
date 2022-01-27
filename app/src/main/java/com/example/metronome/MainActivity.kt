@@ -3,14 +3,18 @@ package com.example.metronome
 import android.media.MediaPlayer
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Handler
 import android.text.TextUtils
 import android.text.method.HideReturnsTransformationMethod
 import android.widget.Chronometer
 import kotlinx.android.synthetic.main.activity_main.*
+import java.util.*
+import kotlin.concurrent.schedule
 
 class MainActivity : AppCompatActivity() {
 
     var mMediaPlayer: MediaPlayer? = null
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -48,15 +52,27 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun startBeat (){
-        var breakTime: Long = 60/bpmAmountTextNumber.text.toString().toLong()
-
         if (startStopButton.text.toString() == "START"){
             startStopButton.text = "STOP"
             startStopButton.setBackgroundResource(R.drawable.stop_button)
+
+             //while (startStopButton.text.toString() == "STOP"){
+             //   var breakTime: Long = 60/bpmAmountTextNumber.text.toString().toLong()
+            //    Timer().schedule(breakTime){
+            //        playSound()
+            //     }
+            // }
         }else{
             startStopButton.text = "START"
             startStopButton.setBackgroundResource(R.drawable.start_button)
+            stopSound()
         }
+       // while (startStopButton.text.toString() == "STOP"){
+        //    var breakTime: Long = 60/bpmAmountTextNumber.text.toString().toLong()
+        //    Timer().schedule(breakTime){
+        //        playSound()
+       //     }
+       // }
     }
 
     fun playSound() {
@@ -81,5 +97,6 @@ class MainActivity : AppCompatActivity() {
             mMediaPlayer = null
         }
     }
+
 
 }
